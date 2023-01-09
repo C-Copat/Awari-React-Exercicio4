@@ -2,7 +2,7 @@
 
 O objetivo deste exercício é transformar uma outra tela que havia sido desenvolvida em Javascript vanilla e transformar o projeto em React.
 
-Não foi seguido qualquer estrutura de pasta e/ou componentização. A ideia era apresentar 
+Não foi seguido qualquer estrutura de pasta e/ou componentização. A ideia era refatorar o [https://github.com/C-Copat/Awari-React-Exercicio-2](Exercício 2), porém sem grande mudanças nas funcionalidades.
 
 ## Exercício:
 
