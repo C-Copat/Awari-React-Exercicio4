@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+body{
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-container {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #454d6b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* It's a form */
+.card {
+  background-color: rgba(19, 19, 19, 0.3);
+  width: 280px;
+  border-radius: 2px;
+  padding: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-header {
+  padding-bottom: 50px;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.card-header::after {
+  content: "";
+  width: 70px;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin-top: -17px;
+}
+
+.card-header > h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.card-content-row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.card-content-row > label {
+  color: #fff;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.card-content-row > .input {
+  margin: 10px 0 0 0 ;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff ;
+  padding: 0 15px;
+  color: #fff
+  
+}
+
+
+
+.card-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.card-footer #submit {
+  width: 100%;
+  height: 40px;
+  background-color: #a13854;
+  border: none;
+  color: #fff;
+  margin: 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-footer a {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
 }
+
